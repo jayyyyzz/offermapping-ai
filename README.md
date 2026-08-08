@@ -130,6 +130,6 @@ npm.cmd run test:e2e
 
 ## 发布状态
 
-本地发布基线包含 Git 提交历史与 `v0.2.0-demo` tag。远程仓库和公开部署需要有效的 GitHub 登录态、仓库地址以及部署平台凭据；当前工作区不会伪造远程地址或提交密钥。
+公开仓库：[github.com/jayyyyzz/offermapping-ai](https://github.com/jayyyyzz/offermapping-ai)；Release：[v0.2.0-demo](https://github.com/jayyyyzz/offermapping-ai/releases/tag/v0.2.0-demo)。当前尚未绑定托管平台，因此还没有可长期访问的公开 Demo URL；Docker 与无密钥规则链路已准备好，部署步骤见 [`docs/deploy.md`](docs/deploy.md)。
 
 真实案例的授权、脱敏、盲评和结果声明模板见 [`documentation/real-case-validation.md`](documentation/real-case-validation.md)；本版本尚未声称已完成真实案例验证。版本变更记录见 [`docs/releases/v0.2.0-demo.md`](docs/releases/v0.2.0-demo.md)。
