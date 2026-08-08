@@ -1,0 +1,62 @@
+{
+  "deepseek-flagship": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model": "replace-with-current-model-id"
+  },
+  "qwen-flagship": {
+    "provider": "qwen",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "model": "replace-with-current-model-id"
+  },
+  "glm-flagship": {
+    "provider": "glm",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "api_key_env": "ZHIPU_API_KEY",
+    "model": "replace-with-current-model-id"
+  },
+  "kimi-flagship": {
+    "provider": "kimi",
+    "base_url": "https://api.moonshot.cn/v1",
+    "api_key_env": "MOONSHOT_API_KEY",
+    "model": "replace-with-current-model-id"
+  },
+  "doubao-flagship": {
+    "provider": "doubao",
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "api_key_env": "ARK_API_KEY",
+    "model": "replace-with-endpoint-or-model-id"
+  },
+  "openai-flagship": {
+    "provider": "openai",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "model": "replace-with-current-model-id"
+  },
+  "anthropic-via-compatible-gateway": {
+    "provider": "anthropic",
+    "base_url": "https://your-compatible-gateway.example/v1",
+    "api_key_env": "ANTHROPIC_GATEWAY_API_KEY",
+    "model": "replace-with-current-model-id"
+  },
+  "claude-juaiapi": {
+    "provider": "claude-via-juaiapi",
+    "base_url": "https://www.juaiapi.com/v1",
+    "api_key_env": "CLAUDE_JUAIAPI_API_KEY",
+    "model": "claude-opus-4-8"
+  },
+  "codex-juaiapi": {
+    "provider": "openai-via-juaiapi",
+    "base_url": "https://www.juaiapi.com/v1",
+    "api_key_env": "CODEX_JUAIAPI_API_KEY",
+    "model": "gpt-5.5"
+  },
+  "gemini-via-compatible-api": {
+    "provider": "gemini",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "api_key_env": "GEMINI_API_KEY",
+    "model": "replace-with-current-model-id"
+  }
+}

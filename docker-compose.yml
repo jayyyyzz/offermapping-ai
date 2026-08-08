@@ -1,0 +1,19 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - .env
+    environment:
+      APP_ENV: production
+      PORT: 8000
+      OFFERMAPPING_DB: /app/data/offermapping.db
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:8000}
+      TOKEN_SECRET: ${TOKEN_SECRET:?Set TOKEN_SECRET in .env before starting}
+    volumes:
+      - offermapping_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  offermapping_data:
